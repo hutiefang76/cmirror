@@ -7,7 +7,7 @@ license = "MIT"
 [dependencies]
 tokio = { version = "1.0", features = ["full"] }  # 异步运行时
 clap = { version = "4.0", features = ["derive"] } # CLI 参数解析
-reqwest = { version = "0.12.24", features = ["json"] } # HTTP 客户端
+reqwest = { version = "0.12.24", default-features = false, features = ["json", "rustls-tls"] } # HTTP 客户端 (使用 rustls 以支持交叉编译)
 anyhow = "1.0"       # 错误处理
 async-trait = "0.1"  # 允许在 Trait 中使用 async
 serde = { version = "1.0", features = ["derive"] } # 序列化

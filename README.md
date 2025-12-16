@@ -205,6 +205,10 @@ cmirror restore pip
 * [ ] 支持 yum/dnf (CentOS/Fedora)
 * [ ] TUI 交互式界面 (Dialoguer)
 
-## 🤝 贡献
+## 🤝 反馈与共建
 
-欢迎提交 Issue 和 Pull Request！让我们一起改善国内的开发体验。
+> 🚧 **温馨提示**：受限于开发环境与测试设备，本项目在部分系统或特定配置下的表现可能尚未经过完全覆盖的严格测试。
+
+如果您在使用过程中遇到任何“水土不服”或意外 Bug，请不吝前往 [Issues](https://github.com/ox01024/cmirror/issues) 提交反馈。您的每一次报错、建议或 PR，都是让 `cmirror` 变得更稳健的重要动力！
+
+开源不易，感谢每一位开发者的包容与支持。❤️

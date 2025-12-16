@@ -17,9 +17,9 @@ jobs:
       matrix:
         include:
           # Linux x64
-          - target: x86_64-unknown-linux-gnu
+          - target: x86_64-unknown-linux-musl
             os: ubuntu-latest
-            use_cross: false
+            use_cross: true
             archive_ext: .tar.gz
             artifact_name: linux-x64
           # macOS x64
@@ -41,7 +41,7 @@ jobs:
             archive_ext: .zip
             artifact_name: windows-x64
           # Linux ARM64 (via Cross)
-          - target: aarch64-unknown-linux-gnu
+          - target: aarch64-unknown-linux-musl
             os: ubuntu-latest
             use_cross: true
             archive_ext: .tar.gz
